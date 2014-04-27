@@ -1,5 +1,5 @@
 <?php
-require_once 'vendor/dg/twitter-php/src/twitter.class.php';
+require 'vendor/autoload.php';
 
 $string = file_get_contents('http://www.berlin.de/rubrik/hauptstadt/verbannte_buecher/verbannte-buecher.json');
 $data   = json_decode($string,true);
